@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>UAP</title>
+</head>
+
+<body>
+    <div>
+        <h1>Menu</h1>
+        <table>
+            <tr>
+                <td>Kode</td>
+                <td>Nama Barang</td>
+                <td>Harga</td>
+            </tr>
+            <tr>
+                <td id="cd1">001</td>
+                <td id="name1">A</td>
+                <td id="harga1" value=10000 >10000</td>
+            </tr>
+            <tr>
+                <td id="cd2">002</td>
+                <td id="name2">B</td>
+                <td id="harga2">20.000</td>
+            </tr>
+            <tr>
+                <td id="cd3">001</td>
+                <td id="name3">C</td>
+                <td id="harga3">30.000</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h1>INPUT</h1>
+        <table>
+            <tr>
+                <td>Masukkan Kode: </td>
+                <td id="pl1"><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Banyak Nya Barang:</td>
+                <td id="pl2"><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Bayar:</td>
+                <td id="cash"><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Kembalian</td>
+                <td id="display"><input readonly></td>
+            </tr>
+            <tr>
+                <td><button onclick="show()">Subbmit</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
